@@ -67,7 +67,6 @@
 #     for j in range(2,7):
 #         print(i,j)
 
-
 # names = ["Ram", "Shyam", "Aman"]
 # for name in names:
 #     print(name)
@@ -82,7 +81,20 @@
 #     print(i)
 #     i += 1
 
-i = 1
-while i <= 5:
-    print(i)
-    i += 2
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i += 2
+
+# x = int(input("enter a number:"))
+
+# if x >= 90 and x < 100:
+#     print("A")
+# elif x >= 70 and x < 89:
+#     print("B")
+# else:
+#     print("C")
+
+for i in range(4):
+    for j in range(3):
+        print(i , j)
